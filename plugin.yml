@@ -1,0 +1,14 @@
+name: GangSys
+version: 1.0
+description: Systeme pour les Gangs sur PrisonLife.
+load: STARTUP
+authors: [SanXyS]
+wabsite: http://sanxys.fr/
+main: fr.sanxys.gangsys.GangSys
+database: false
+commands:
+  gang:
+    description: Ouvre le Menu des Gangs
+    aliases: [gangs]
+    permission: prisonlife.joueur
+    usage: Erreur de synthaxe ! Peut être que vous vouliez /gang <invite|kick> <player> ?
